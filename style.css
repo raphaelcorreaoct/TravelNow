@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Nunito";
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.primary-button {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ffffff;
+  padding: 10px 34px;
+
+  border: none;
+  border-radius: 100px;
+  background: #fbb667;
+  box-shadow: 0px 5px 8px rgba(251, 182, 103, 0.58);
+  cursor: pointer;
+}
+
+header {
+  min-height: 55px;
+}
+
+header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 12px;
+}
+
+header nav a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  margin: 0 16px;
+  color: #b6b6b6;
+
+  transition: color 0.2s linear;
+}
+
+header nav a:hover {
+  color: #fbb667;
+}
+
+main .main-text {
+  max-width: 620px;
+  width: 100%;
+}
+
+main .main-text h1 {
+  font-family: "Crimson";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 76px;
+  line-height: 91.7%;
+
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
+}
+
+main .main-text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 145.2%;
+
+  letter-spacing: 0.015em;
+
+  color: #3d3d3d;
+}
+
+main .wrapper {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 200px);
+  align-items: center;
+}
+
+main .main-text form {
+  width: 100%;
+  max-width: 580px;
+  height: 73px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.21);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 34px;
+}
+
+main .main-text form .primary-button {
+  box-shadow: none;
+}
+
+main .main-text form input {
+  flex: 1;
+  margin-right: 16px;
+  height: 100%;
+  border: none;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145.2%;
+
+  letter-spacing: 0.015em;
+  color: #fbb667;
+
+  outline: none;
+}
+
+main .main-text form input::placeholder {
+  color: #fbb667;
+}
+
+body {
+  background-image: url("assets/Ilustration.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
